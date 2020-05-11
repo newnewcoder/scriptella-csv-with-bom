@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
+
+dependencies {
+    compile group: 'com.javaforge.scriptella', name: 'scriptella-core', version: '1.1'
+    compile group: 'com.javaforge.scriptella', name: 'scriptella-drivers', version: '1.1'
+    compile group: 'com.javaforge.scriptella', name: 'scriptella-tools', version: '1.1'
+    compile group: 'commons-io', name: 'commons-io', version: '2.6'
+    implementation 'junit:junit:4.12'
+}
