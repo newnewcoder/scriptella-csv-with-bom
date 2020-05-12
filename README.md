@@ -1,4 +1,4 @@
-# Scriptella extended csv driver for BOM handling
+# [Scriptella](http://scriptella.org) extended csv driver for BOM handling
 
 This project provides an extended csv driver for BOM handling.
 
